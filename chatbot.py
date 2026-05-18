@@ -69,7 +69,7 @@ def chat() -> None:
 
         if query == "save":
             file_path = save_history(messages)
-            print("Saved and filepath: ", file_path)
+            print("Sauvegardé: ", file_path)
             continue
 
         messages.append({"role": "user", "content": query})
